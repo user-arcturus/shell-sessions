@@ -12,14 +12,14 @@ session.execute('cd folder' , (err, output) => {
     return;
   }else{
     console.log(output);
-  }
-});
-session.execute('dir' , (err, output) => {
-  if (err) {
-    console.error(err);
-    return;
-  }else{
-    console.log(output);
+    session.execute('dir' , (err, output) => {
+      if (err) {
+        console.error(err);
+        return;
+      }else{
+        console.log(output);
+      }
+    });//minor issue , my code doesn't wait for the previous command to wait , so you have to wait for an output and execute the next command after that like this , if you've any workaround this , i kindly ask you to contact me on discord and tell me what that is! thanks. ( Discord >> user.void )
   }
 });
 
