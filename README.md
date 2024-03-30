@@ -1,6 +1,5 @@
 # shell-sessions
-Source Code of my npm package , "shell-sessions"
-
+A tool for executing commands locally , with a session saving system ( Multiple terminal instances can be run individually )
 ## Usage
 
 ```js
