@@ -1,6 +1,6 @@
 {
   "name": "shell-sessions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tool for executing commands locally , with a session saving system ( Multiple terminal instances can be run individually )",
   "main": "index.js",
   "scripts": {
