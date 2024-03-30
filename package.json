@@ -1,0 +1,26 @@
+{
+  "name": "shell-sessions",
+  "version": "1.0.2",
+  "description": "A tool for executing commands locally , with a session saving system ( Multiple terminal instances can be run individually )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Terminal",
+    "Sessions",
+    "Save",
+    "Void",
+    "User.void"
+  ],
+  "author": "user.void ( Void )",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoidLK/shell-sessions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VoidLK/shell-sessions/issues"
+  },
+  "homepage": "https://github.com/VoidLK/shell-sessions#readme"
+}
