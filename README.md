@@ -19,7 +19,7 @@ session.execute('cd folder' , (err, output) => {
       }else{
         console.log(output);
       }
-    });//minor issue , my code doesn't wait for the previous command to complete. , so you have to wait for an output and execute the next command after that like this , if you've any workaround this , i kindly ask you to contact me on discord and tell me what that is! thanks. ( Discord >> user.void )
+    });//minor issue , my code doesn't wait for the previous command to complete. , so you have to wait for an output and execute the next command after that like this , if you've any workaround this , i kindly ask you to contact me on discord and tell me what that is! thanks. ( Discord >> runevox )
   }
 });
 
